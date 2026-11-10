@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below."
+title: "pymaxtwin: Robust deterministic data splitting for model validation"
+version: "0.1.0"
+license: GPL-3.0-or-later
+repository-code: "https://github.com/ChoYoungSeo/pymaxtwin"
+authors:
+  - family-names: Joseph
+    given-names: V. Roshan
+  - family-names: Cho
+    given-names: Youngseo
+preferred-citation:
+  type: article
+  title: "A Robust Deterministic Data Splitting Method for Model Validation"
+  authors:
+    - family-names: Joseph
+      given-names: V. Roshan
+    - family-names: Cho
+      given-names: Youngseo
+  journal: "Journal of Computational and Graphical Statistics"
+  year: 2026
+  doi: "10.1080/10618600.2026.2754089"
