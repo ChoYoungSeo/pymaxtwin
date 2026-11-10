@@ -3,14 +3,14 @@
 Python implementation of **MaxTwin** ([Joseph and Cho, 2026](https://doi.org/10.1080/10618600.2026.2754089)), a deterministic train/test split that preserves the distribution of the data while keeping testing points away from training points.
 
 <p align="center">
-  <img src="docs/figures/figure1.png" width="100%" alt="Three scatterplots compare 20-point testing sets selected by maximum separation, SPlit, and MaxTwin from the same 100 observations.">
+  <img src="https://raw.githubusercontent.com/ChoYoungSeo/pymaxtwin/main/docs/figures/figure1.png" width="100%" alt="Three scatterplots compare 20-point testing sets selected by maximum separation, SPlit, and MaxTwin from the same 100 observations.">
 </p>
 <p align="center"><em>Twenty testing points (red) chosen from 100 by maximum separation, SPlit, and MaxTwin.</em></p>
 
 ## Installation
 
 ```bash
-pip install git+https://github.com/ChoYoungSeo/pymaxtwin.git
+pip install pymaxtwin
 ```
 
 ## Usage
@@ -37,12 +37,12 @@ train_idx = np.setdiff1d(np.arange(len(X)), test_idx)
 ## Results
 
 <p align="center">
-  <img src="docs/figures/figure3.png" width="80%" alt="Two scatterplots compare initial and improved MaxTwin selections of 50 testing observations from 100 observations arranged in 50 close pairs.">
+  <img src="https://raw.githubusercontent.com/ChoYoungSeo/pymaxtwin/main/docs/figures/figure3.png" width="80%" alt="Two scatterplots compare initial and improved MaxTwin selections of 50 testing observations from 100 observations arranged in 50 close pairs.">
 </p>
 <p align="center"><em>Paired data: the improved algorithm assigns close pairs entirely to training or testing.</em></p>
 
 <p align="center">
-  <img src="docs/figures/figure4.png" width="60%" alt="Boxplots of energy distance and separation distance for Random, Twin, DUPLEX, and MaxTwin on unpaired and paired data.">
+  <img src="https://raw.githubusercontent.com/ChoYoungSeo/pymaxtwin/main/docs/figures/figure4.png" width="60%" alt="Boxplots of energy distance and separation distance for Random, Twin, DUPLEX, and MaxTwin on unpaired and paired data.">
 </p>
 <p align="center"><em>MaxTwin keeps the energy distance low and the separation distance high on both unpaired and paired data.</em></p>
 
